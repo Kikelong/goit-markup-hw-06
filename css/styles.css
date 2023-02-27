@@ -201,6 +201,7 @@ li{
     font-size: 14px;
 
     color: var(--text-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .estudio-header-index:focus{
@@ -246,6 +247,7 @@ li{
     font-size: 14px;
     color: var(--brand-color);
     position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1349,6 +1351,7 @@ color: #ffffff;
     border-radius: 4px;
     padding: 6px 24px;
     margin: 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-botones-portafolio:hover{
@@ -1412,6 +1415,7 @@ color: #ffffff;
     flex-basis: calc((100% - 90px)/3);
     /* width: 370px; */
     /* height: 404px; */
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li-tarjetas-services:hover{
