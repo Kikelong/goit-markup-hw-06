@@ -414,6 +414,10 @@ li{
     color: #6fc3f5;
 }
 
+.boton:active{
+    color: #ffffff;
+}
+
 /* --------------SECCION VALORES EMPRESARIALES */
 
 .section-valores-empresariales{
@@ -943,16 +947,54 @@ color: #FFFFFF;
     fill: #FFFFFF;
 }
 
-.boton-enviar-footer:hover, .boton-enviar-footer:focus{
+.boton-enviar-footer:hover{
     color: #6fc3f5;
+}
+
+.boton-enviar-footer:focus{
+    color: #6fc3f5;
+}
+
+.boton-enviar-footer:active{
+    color: #ffffff;
+}
+
+
+.boton-enviar-footer:hover .icon-enviar-footer{
     fill: #6fc3f5;
 }
 
-.boton-enviar-footer:hover .icon-enviar-footer,
 .boton-enviar-footer:focus .icon-enviar-footer{
     fill: #6fc3f5;
 }
 
+.boton-enviar-footer:active .icon-enviar-footer{
+    fill: #ffffff;
+}
+
+
+
+
+/* .boton-enviar-footer:hover{
+    color: #6fc3f5;
+}
+
+.boton-enviar-footer:focus{
+    color: white;
+}
+
+.boton-enviar-footer:active{
+    color: #6fc3f5;
+}
+
+.boton-enviar-footer:hover .icon-enviar-footer{
+    fill: #6fc3f5;
+}
+
+.boton-enviar-footer:focus .icon-enviar-footer{
+    fill: #FFFFFF;
+    color: white;
+} */
 
 
 
@@ -1176,10 +1218,10 @@ position: fixed;
 }
 
 .backdrop.is-hidden{
- opacity: 0;
+    opacity: 0;
     visibility: hidden;
     pointer-events: none;
- }
+}
 
 .modal{
     top: 50%;
@@ -1193,7 +1235,7 @@ position: fixed;
     border-radius: 4px;
 
     transform: translate(-50% -50%) scale(1);
- 
+
 }
 
 .container-boton-salida{
@@ -1233,6 +1275,42 @@ color: #ffffff;
 /* FOOTER DE PORTAFOLIO */
 
 /* __________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .prueba {
